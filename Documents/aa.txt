@@ -1,0 +1,6 @@
+The ActionInvocation represents the execution state of an action. It holds the action
+and interceptors objects.
+ActionInvocation Interface
+The struts framework provides ActionInvocation interface to deal with
+ActionInvocation. It provides many methods, some of them can be used to get the
+instance of ValueStack, ActionProxy, ActionContext, Result etc.
