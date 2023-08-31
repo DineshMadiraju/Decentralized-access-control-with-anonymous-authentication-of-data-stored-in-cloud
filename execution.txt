@@ -1,0 +1,38 @@
+Copy project data from cd in any drive like (c,d,e)
+
+
+1.install java, tomcat server , mysql and SQLyog software
+java-->1.6 or 1.7
+tomcat server-->6.0 or 7.0/8.0
+mysql-->5.5
+SQLyog-->5.0 
+
+
+2. set JAVA_HOME environment variable
+-->right click on my computer-->properties-->advance tab-->environment variable-->system variables-->click on new-->then we get one window
+
+variable name:JAVA_HOME
+variable value:where we install java software in our system, till version 
+-->ok-->ok-->ok
+
+3.Create a database and importing data in mysql using SQLyog-->
+
+-->open SQLyog-->connect to user-->root with password
+
+
+-->file-->open-->controlcloud.sql(project folder-->database)-->open
+
+
+-->Click on exceuteallqueirs
+
+
+
+
+
+4.copy the code-->in project folder-->code-->ControlCloudDataAccessPrivilege folder in tomcat server-->webapp-->paste 
+
+5.start tomcat server-->tomcat-->bin-->tomcat7 service runner (double click).
+
+6.open the internet explorer or start-->run-->
+http://localhost:<portnumber>/<foldername>
+http://localhost:8087/ControlCloudDataAccessPrivilege
